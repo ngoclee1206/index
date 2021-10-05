@@ -1,0 +1,219 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+
+{
+	margin: 0;
+	padding: 0;
+}
+
+#website
+{
+	width: 100%;
+	height: 2500px;
+	background-color: azure;
+}
+.container
+{
+	width: 100%;
+	height: 800px;
+	background:url("../images/content.jpg");
+	background-size: cover;
+
+}
+.header
+{
+	width: 100%;
+	height: 100px;
+	padding: 0 50px;
+	box-sizing: border-box;
+}
+.logo
+{
+	width: 20%;
+	height: 30px;
+	float: left;
+}
+
+.taskbar
+{
+	width: 80%;
+	height: 70px;
+	float:right;
+	
+}
+.taskbar ul
+{
+	list-style: none;
+}
+.taskbar ul li
+{
+	float: left;
+	padding: 10px 30px;
+}
+.taskbar ul li a
+{
+	text-decoration: none;
+	color: ghostwhite; 
+}
+.taskbar ul li:hover
+{
+	background-color:darkgray;
+	margin-top: 3px;
+	transition: 0.3s; 
+}
+.taskbar
+{
+	display: inline-block;
+	background-color: none;
+	color:#373933;
+	position: relative;
+}
+.slider
+{
+	width: 40%;
+	height: 500px;
+	margin: 100px 0px 100px 0px;
+	box-sizing: border-box;
+	padding: 60px  0px 50px 30px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 20px;
+	color: aliceblue;
+}
+
+#textcontainer
+{	width: 100%;
+	height: 00px;
+	margin: 100px 0px 100px 0px;
+	background-color: none;
+}
+
+.text 
+{
+	width: 100%;
+	float:left;
+}
+.text
+{
+	padding: 0px 0px;
+}
+.text ul li a
+{
+	text-decoration: none;
+	color: ghostwhite; 
+}
+.text ul li:hover
+{
+	background-color:darkgray;
+	margin-top: 2px;
+	transition: 0.3s; 
+}
+.text
+{
+	display: inline-block;
+	background-color: none;
+	color:azure;
+	position: relative;
+}
+button
+{
+	width: 40%;
+	height: 30px;
+	border-radius: 50px;
+	border: thin;
+	border-color: tomato;
+	background-color: none;
+	margin-left: 50px; 
+}
+.content
+{
+	background-color: none;
+	width: 100%;
+	height: 700px;
+}
+.data_1
+{
+	width: 30%;
+	height: 400px;
+	background: url("../images/muadong.jpg"); 
+	float: left;
+	background-size:cover;
+	margin: 10% 1% 3% 2%;
+}
+.data_2
+{
+	width: 30%;
+	height: 400px;
+	background: url("../images/jean.jpg"); 
+	float: left;
+	background-size: cover;
+	margin: 10% 1% 3% 2%;
+}
+.data_3
+{
+	width: 30%;
+	height: 400px;
+	background:url("../images/items.jpg"); 
+	float: left;
+	background-size: cover;
+	margin: 10% 1% 3% 2%;
+}
+.tenanh
+{
+	width: 100%;
+	height: 200px;
+	background-color: none;
+	float: right;
+	
+	
+}
+.tenanh ul
+{
+	list-style: none;
+}
+.tenanh ul li
+{
+	float: left;
+	text-align: center;
+	padding: 0px 180px;
+	box-sizing: border-box;
+	
+	
+}
+.tenanh ul li a
+{
+	text-decoration: none;
+	color: black; 
+}
+.tenanh ul li:hover
+{
+	background-color:darkgray;
+	margin-top: 3px;
+	transition: 0.3s; 
+}
+.tenanh
+{
+	display: inline-block;
+	background-color: none;
+	color:#373933;
+	position: relative;
+}
+.gioithieu
+{
+	width: 100%;
+	height: 800px;
+	background:url("../images/abc.jpg");
+	background-size: cover;
+
+}
+.footer
+{
+	width: 140%;
+	height: 100px;
+	background-color: none;
+	padding:0px 30px 0px 3px;
+	color: darkgrey;
+
+	
+}
